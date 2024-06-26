@@ -1,0 +1,165 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+  width: 200px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Roboto;
+  background-color: #ffff;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+  width: 200px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Roboto;
+  background-color: #ffff;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+  width: 200px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Roboto;
+  background-color: #ffff;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+  width: 200px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Roboto;
+  background-color: #ffff;
+}
+.img-container {
+  text-align: right;
+}
+.TechnologyCard-heading {
+  font-size: 1rem;
+  color: #171f46;
+}
+.TechnologyCard-description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #64748b;
+}
+.image {
+  width: 3rem;
+  height: 3rem;
+}
+li {
+  list-style-type: none;
+}
+@media screen and (min-width: 480px) and (max-width: 576px) {
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    width: 300px;
+  }
+  .TechnologyCard-heading {
+    font-size: 2rem;
+    color: #171f46;
+  }
+  .TechnologyCard-description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #64748b;
+  }
+  .image {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    width: 600px;
+  }
+  .TechnologyCard-heading {
+    font-size: 3rem;
+    color: #171f46;
+  }
+  .TechnologyCard-description {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #64748b;
+  }
+  .image {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    width: 700px;
+  }
+  .TechnologyCard-heading {
+    font-size: 5rem;
+    color: #171f46;
+  }
+  .TechnologyCard-description {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #64748b;
+  }
+  .image {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    width: 300px;
+  }
+  .TechnologyCard-heading {
+    font-size: 1rem;
+    color: #171f46;
+  }
+  .TechnologyCard-description {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #64748b;
+  }
+  .image {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (min-width: 1200px)  {
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    width: 400px;
+  }
+  .TechnologyCard-heading {
+    font-size: 2rem;
+    color: #171f46;
+  }
+  .TechnologyCard-description {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #64748b;
+  }
+  .image {
+    width: 4rem;
+    height: 4rem;
+  }
+
+}
